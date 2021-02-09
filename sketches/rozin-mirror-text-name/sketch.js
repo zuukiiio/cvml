@@ -36,8 +36,7 @@ function draw() {
       
       let brightness = totalBrightness/3;
       
-      
-      
+
       let size = map(brightness, 0, 255, 0, TWO_PI, true)
       let sW = map(brightness, 0, 255, 0.5, 1, true)
 
