@@ -38,7 +38,7 @@ function draw() {
       
       
       
-      let size = map(brightness, 0, 255, 0, TWO_PI, true)
+      let size = map(brightness, 0, 255, 1, TWO_PI, true)
       let sW = map(brightness, 0, 255, 0.5, 1, true)
 
       // noStroke();
