@@ -1,9 +1,9 @@
-let w = 640;
-let h = 420;
+let w = 320;
+let h = 210;
 let capture;
 let threshold = 85;
 let threshold2 = 170;
-let stepSize = 20;
+let stepSize = 10;
 
 
 
