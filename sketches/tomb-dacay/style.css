@@ -1,13 +1,29 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
   }
   canvas {
     display: block;
   }
   #sketch-parent {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 70%;
+    top: 40%;
     transform: translate(-50%, -50%);
   }
+  #logo {
+    position: absolute;
+    left: 15%;
+    top: 22%;
+    transform: scaleX(0.5) scaleY(0.5);
+   }
+
+  #instruction {
+    text-align: center;
+    color: chartreuse;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+
+   }

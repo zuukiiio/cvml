@@ -2,8 +2,9 @@ let img;
 let postTime;
 let referenceTime;
 let currentTime;
-;let dSpeed = 200;
+let dSpeed = 200;
 let dThreshold = 10000;
+let restoreRate = 0.3;
 
 function preload(){
   img = loadImage('label1.png');
@@ -56,8 +57,7 @@ function draw() {
 }
 
 function mousePressed() {
-  referenceTime = (referenceTime+currentTime)/2;
-  console.log(img.pixels[400000])
+  referenceTime = referenceTime+(currentTime-referenceTime)*restoreRate;
 }
 
 
