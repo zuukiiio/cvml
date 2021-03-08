@@ -11,7 +11,9 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(img.width, img.height);
+  let c = createCanvas(img.width, img.height);
+  c.parent("sketch-parent");
+
   // postTime = year()*365 + month()*30 + day();
   postTime = hour()*3600 + minute()*60 + second();
   referenceTime = postTime;
